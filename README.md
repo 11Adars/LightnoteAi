@@ -170,21 +170,6 @@ Multipart fields:
 - `reference_image`: optional image file
 - `target_box`: optional JSON array `[x, y, width, height]` using normalized values from `0` to `1`
 
-## GitHub submission
-
-From the project folder:
-
-```powershell
-git init
-git add .
-git status
-git commit -m "Build LightnoteAI video editing prototype"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/lightnoteai.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and the repository name with the actual GitHub repository. Never commit `.env`, API keys, uploaded videos, generated output, `.venv`, `node_modules`, or `dist`.
 
 ## Why this approach
 
